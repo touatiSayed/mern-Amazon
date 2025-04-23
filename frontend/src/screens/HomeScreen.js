@@ -1,7 +1,6 @@
 import { useEffect, useReducer } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import logger from 'use-reducer-logger';
 // import data from '../data';
 
 const reducer = (state, action) => {
